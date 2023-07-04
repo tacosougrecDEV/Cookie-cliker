@@ -46,7 +46,7 @@ const UpgradesList = () =>{
 
   return(
     <>
-    <div className="absolute w-1/5 top-1/4 bg-slate-950 rounded-r-xl">
+    <div className="upgrades absolute w-1/5 top-1/4 bg-slate-950 rounded-r-xl">
       <h1 className="font-semibold text-center">Upgrades :</h1>
       <div className="grid grid-cols-2 my-4 overflow-auto h-4/5">
         {UpgradesData.map(index =>(

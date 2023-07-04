@@ -45,5 +45,20 @@ button:focus-visible {
  #clicker {
 	margin-top: 75vh;
 }
+
+.score, .upgrades {
+	min-width: fit-content;
+}
+
+.upgrades{
+	border-radius:0.75rem;
+	left:33%;
+}	
+}
+
+@media only screen and (max-width: 428px) {
+	.upgrades{
+	left:18%;
+}	
 }
 

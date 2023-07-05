@@ -74,6 +74,18 @@ button:focus-visible {
 	margin-top: 4rem;
 	}
 }
+
+@media only screen and (max-width: 390px) {
+	.mt-32 {
+	margin-top: 0;
+	}
+	#clicker {
+	margin-top: 29rem;
+	margin-bottom: 0;
+	}
+	
+}
+
 @media only screen and (max-width: 375px) {
 	#clicker {
 	margin-top: 24rem;

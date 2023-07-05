@@ -42,23 +42,49 @@ button:focus-visible {
 }
 
 @media only screen and (max-width: 810px) {
- #clicker {
-	margin-top: 75vh;
+#clicker {
+	margin-top: 46vh;
 }
-
 .score, .upgrades {
 	min-width: fit-content;
 }
 
 .upgrades{
 	border-radius:0.75rem;
-	left:33%;
+	left:25%;
+}
+
+.top-1\/4{
+	top:15%;
 }	
 }
 
 @media only screen and (max-width: 428px) {
 	.upgrades{
-	left:18%;
-}	
+	left:4%;
+	}
+	#clicker {
+	margin-top: 25rem;
+	margin-bottom: 9rem;
+	}
+	.w-64 {
+	width: 11rem;
+	}
 }
 
+@media only screen and (max-width: 375px) {
+	.upgrades{
+	left:0;
+	border-radius:0;
+	}
+	#clicker {
+	margin-top: 18rem;
+	width: 10rem;
+	}
+	.grid-cols-2{
+	grid-template-columns: repeat(3,minmax(0,1fr));
+	}
+	.w-32 {
+	width: 7rem;
+	}
+}

@@ -78,13 +78,17 @@ button:focus-visible {
 	border-radius:0;
 	}
 	#clicker {
-	margin-top: 18rem;
+	margin-top: 19rem;
 	width: 10rem;
+	margin-bottom: 0;
 	}
 	.grid-cols-2{
 	grid-template-columns: repeat(3,minmax(0,1fr));
 	}
 	.w-32 {
 	width: 7rem;
+	}
+	.rate{
+	margin-top:0;	
 	}
 }

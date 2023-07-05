@@ -131,21 +131,6 @@ button:focus-visible {
 }
 
 @media only screen and (max-width: 375px) and (max-height: 667px) and (orientation: landscape){
-	.upgrades{
-	left:0;
-	border-radius:0;
-	}
-	#clicker {
-	margin-top: 19rem;
-	width: 10rem;
-	margin-bottom: 0;
-	}
-	.w-32 {
-	width: 7rem;
-	}
-	.rate{
-	margin-top:0;	
-	}
 	.grid-cols-2{
 	grid-template-columns: repeat(3,minmax(0,1fr));
 	}
